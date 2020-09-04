@@ -9,7 +9,7 @@ Pre-processing scripts of Peruvian Dataset
 
 ## Normalizacion
 
-Para normalizar es necesario convertir los objs a off para despues convertirlos a ply y despues a objs 
- ejecutar OFFtoH5.py antes de ejecutar dar permisos a meshconv con
+Para normalizar es necesario que este clasificada la db y seguir el siguiente orden convertir los objs a off para despues convertirlos a ply y despues a objs 
+ ejecutar OFFtoH5.py antes de ejecutar dar permisos a meshconv (es necesario editar el codigo y crear la carpeta destino previamente)
  
 ### sudo chmod u+x meshconv
